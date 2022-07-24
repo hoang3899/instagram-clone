@@ -1,0 +1,143 @@
+.login-container {
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-rows {
+    background-color: #fafafa;
+    flex-grow: 1;
+    order: 4;
+}
+
+.login-row {
+    display:flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: center;
+    margin: 32px auto 0;
+    max-width: 935px;
+    width: 100%;
+    padding-bottom: 32px;
+
+}
+
+.login-col {
+    align-self: center;
+    background-image: url(https://www.instagram.com/static/images/homepage/phones/home-phones.png/1dc085cdb87d.png);
+    background-position: -46px 0;
+    background-size: 468.32px 634.15px;
+    flex-basis: 380.32px;
+    height: 581.15px;
+    margin-bottom: 12px;
+    margin-right: 32px;
+}
+
+.login-img-container {
+    margin: 27px 0 0 113px;
+    position: relative;
+}
+
+.content {
+    color:#262626;
+    flex-grow:1;
+    justify-content: center;
+    max-width: 350px;
+    margin-top:12px;
+    -webkit-box-pack: justify;
+      -moz-box-pack: justify;
+    -webkit-box-flex: 1;
+      -moz-box-flex: 1;  
+  }
+  
+  .login-box {
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 1px;
+    margin:0 0 10px;
+    padding: 10px 0;
+  }
+  
+  .header {
+    margin: 14.45px auto 12px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logo {
+    width:175px;
+    height:auto;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .input-box {
+    margin:auto 40px 6px;
+  }
+  
+  input {
+    height: 36px;
+    border: 1px solid #efefef;
+    border-radius: 3px;
+    background-color: #fafafa;
+    width:100%;
+    font-size:12px;
+    margin: 0;
+    padding: 9px 0 7px 8px;
+    outline: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+  }
+
+  input#name:focus, input#password:focus {
+    border-color:#bbb;
+  }
+  
+  .button-box {
+    display: block;
+    position: relative;
+    margin: 8px 40px;
+  }
+
+  .btn {
+    cursor: pointer;
+    width: 100%;
+    padding:0 8px; 
+    background: #3897f0;
+    border:1px solid #3897f0;
+    color:#fff;
+    border-radius:3px;
+    font-weight:600;
+    font-size: 14px;
+    height: 28px;
+    line-height: 26px;
+    outline: none;
+    white-space: nowrap;
+  }
+
+  .text {
+    text-align:center;
+    margin:15px;
+    color:#262626;
+    font-size:14px;
+  }
+  
+  .text a {
+    color:#3897f0;
+    margin-left:3px;
+  }
+
+  .text a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer {
+    order: 5;
+    padding: 0 20px;
+  }

@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+:root {
+    --ig-primary-background : 250,250,250;
+    --ig-elevated-separator : 219,219,219;
+    --ig-secondary-background : 250,250,250;
+    --ig-primary-text : 38,38,38;
+    --system-14-font-size : 14px;
+    --system-14-line-height : 18px;
+    --font-family-system :  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --ig-primary-button : 0,149,246;
+    --font-weight-system-semibold : 600;
+    --ig-stroke : 219,219,219;
+    --web-always-white : 255,255,255;
+    --modal-padding : 16px;
+    --system-18-font-size : 18px;
+    --system-18-line-height : 24px;
+    --font-weight-system-bold : 700;
+    --modal-border-radius : 12px;
+}
+
+a {
+    text-decoration: none;
+}
+
+button, input {
+    color: rgb(var(--ig-primary-text));
+    font-family: var(--font-family-system);
+    font-size: var(--system-14-font-size);
+    line-height: var(--system-14-line-height);
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+}
+
